@@ -1,0 +1,71 @@
+div{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+div:hover{
+    background:khaki;
+    width: 100px;
+    height: 200px;
+}
+.a{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+.b{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.c{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+.d{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+a{
+    color: blue;
+}
+a:active{
+    color: red;
+}
+a:visited{
+    color: aqua;
+}
+
+input:checked{
+    color: red;
+    width: 50px;
+    height: 50px;
+    outline: 3px solid springgreen;
+}
+input:focus{
+    background-color:tomato;
+}
+button:hover{
+    background-color: red;
+}
+p{
+    display: none;
+    width: 400px;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+}
+button:hover+p{
+    display: block;
+}
+p{
+    color: aqua;
+}
+p:hover{
+    background-color: antiquewhite;
+    color: blueviolet;
+}
